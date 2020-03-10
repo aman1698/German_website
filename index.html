@@ -21,7 +21,13 @@
     <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/icomoon.css">
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 	<script async src="https://unpkg.com/typer-dot-js@0.1.0/typer.js"></script>
+
   </head>
   <body>
 	  <div class="bg-top navbar-light">
@@ -49,7 +55,7 @@
 					    <div class="col-md topper d-flex align-items-center justify-content-end">
 					    	<p class="mb-0">
 					    		<a href="#" class="btn py-2 px-3 btn-primary d-flex align-items-center justify-content-center">
-					    			<span>Apply now</span>
+					    			<span>Enroll now</span>
 					    		</a>
 					    	</p>
 					    </div>
@@ -63,19 +69,18 @@
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 	        <span class="oi oi-menu"></span> Menu
 	      </button>
-	      <form action="#" class="searchform order-lg-last">
+	    <!--  <form action="#" class="searchform order-lg-last">
           <div class="form-group d-flex">
             <input type="text" class="form-control pl-3" placeholder="Search">
             <button type="submit" placeholder="" class="form-control search"><span class="ion-ios-search"></span></button>
           </div>
-        </form>
+        </form> -->
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav mr-auto">
 	        	<li class="nav-item active"><a href="index.html" class="nav-link pl-0">Home</a></li>
 	        	<li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-	        	<li class="nav-item"><a href="courses.html" class="nav-link">Courses</a></li>
-	        	<li class="nav-item"><a href="teacher.html" class="nav-link">Staff</a></li>
-	        	<li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
+	        	<li class="nav-item"><a href="courses.html" class="nav-link">What we offer</a></li>
+	        	<li class="nav-item"><a href="teacher.html" class="nav-link">Photo Gallery</a></li>
 	          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
 	        </ul>
 	      </div>
@@ -101,10 +106,24 @@
 				  <span style="font-size:1.2em;vertical-align:middle;" class="cursor" data-cursorDisplay="|" data-owner="some-id"></span>
 				</span>
 				
-			  </h1>
+			  </h1><br>
 			<!--- <button class="typer-stop" data-owner="some-id">Stop</button>
 			  <button class="typer-start" data-owner="some-id">Start</button> -->
-            <p><a href="#" class="btn btn-primary px-4 py-3 mt-3">Contact Us</a></p>
+
+			  <div class="container">
+								<!-- <p>The .dropdown class is used to indicate a dropdown menu.</p>
+				<p>Use the .dropdown-menu class to actually build the dropdown menu.</p>
+				<p>To open the dropdown menu, use a button or a link with a class of .dropdown-toggle and data-toggle="dropdown".</p>                                           -->
+				<div class="dropdown">
+				  <button type="button" class="btn btn-primary btn-lg  dropdown-toggle" data-toggle="dropdown">English
+				  </button>
+				  <div class="dropdown-menu">
+					<a class="dropdown-item" href="#">English</a>
+					<a class="dropdown-item" href="#">German</a>
+				  </div>
+				</div>
+			  </div>
+            <!-- <p><a href="#" class="btn btn-primary px-4 py-3 mt-3">Contact Us</a></p> -->
           </div>
         </div>
         </div>
@@ -122,8 +141,17 @@
         </div>
         </div>
       </div> -->
-    </section>
+	</section>
+	<!-- <div id="google_translate_element"></div> -->
+	<!-- <div id="google_translate_element"></div>
+ <script type="text/javascript"> 
+   function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+  }
+</script>
 
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script> -->
+	
     <section class="ftco-services ftco-no-pb">
 			<div class="container-wrap">
 				<div class="row no-gutters">
@@ -134,7 +162,7 @@
               </div>
               <div class="media-body p-2 mt-3">
                 <h3 class="heading">Certified Teachers</h3>
-                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+                <p>The teacher is fluent in German, and they have the educational background to effectively teach the language to student of varying ages.</p>
               </div>
             </div>      
           </div>
@@ -145,7 +173,7 @@
               </div>
               <div class="media-body p-2 mt-3">
                 <h3 class="heading">Special Education</h3>
-                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+                <p>Providing education to the students in a way that addresses their individual differences and needs. This process involves the individually planned and systematically monitored arrangement of teaching procedures. </p>
               </div>
             </div>    
           </div>
@@ -156,7 +184,7 @@
               </div>
               <div class="media-body p-2 mt-3">
                 <h3 class="heading">Book &amp; Library</h3>
-                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+                <p>We provide a wide range of books in German Language to improve students vocabulary in the language.</p>
               </div>
             </div>      
           </div>
@@ -166,8 +194,8 @@
             		<span class="flaticon-diploma"></span>
               </div>
               <div class="media-body p-2 mt-3">
-                <h3 class="heading">Sport Clubs</h3>
-                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+                <h3 class="heading">Admission Counselling</h3>
+                <p>We provide admission counselling to our students who are interested to study for their master and bachelors degree in Germany. </p>
               </div>
             </div>      
           </div>
@@ -179,67 +207,24 @@
 			<div class="container">
 				<div class="row d-flex">
 					<div class="col-md-5 order-md-last wrap-about wrap-about d-flex align-items-stretch">
-						<div class="img" style="background-image: url(images/about.jpg); border"></div>
+						<div class="img" style="background-image: url(images/german_flag.jpg); border"></div>
 					</div>
 					<div class="col-md-7 wrap-about py-5 pr-md-4 ftco-animate">
           	<h2 class="mb-4">What We Offer</h2>
-						<p>On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word.</p>
-						<div class="row mt-5">
-							<div class="col-lg-6">
-								<div class="services-2 d-flex">
-									<div class="icon mt-2 d-flex justify-content-center align-items-center"><span class="flaticon-security"></span></div>
-									<div class="text pl-3">
-										<h3>Safety First</h3>
-										<p>Far far away, behind the word mountains, far from the countries Vokalia.</p>
-									</div>
-								</div>
-							</div>
-							<div class="col-lg-6">
-								<div class="services-2 d-flex">
-									<div class="icon mt-2 d-flex justify-content-center align-items-center"><span class="flaticon-reading"></span></div>
-									<div class="text pl-3">
-										<h3>Regular Classes</h3>
-										<p>Far far away, behind the word mountains, far from the countries Vokalia.</p>
-									</div>
-								</div>
-							</div>
-							<div class="col-lg-6">
-								<div class="services-2 d-flex">
-									<div class="icon mt-2 d-flex justify-content-center align-items-center"><span class="flaticon-diploma"></span></div>
-									<div class="text pl-3">
-										<h3>Certified Teachers</h3>
-										<p>Far far away, behind the word mountains, far from the countries Vokalia.</p>
-									</div>
-								</div>
-							</div>
-							<div class="col-lg-6">
-								<div class="services-2 d-flex">
-									<div class="icon mt-2 d-flex justify-content-center align-items-center"><span class="flaticon-education"></span></div>
-									<div class="text pl-3">
-										<h3>Sufficient Classrooms</h3>
-										<p>Far far away, behind the word mountains, far from the countries Vokalia.</p>
-									</div>
-								</div>
-							</div>
-							<div class="col-lg-6">
-								<div class="services-2 d-flex">
-									<div class="icon mt-2 d-flex justify-content-center align-items-center"><span class="flaticon-jigsaw"></span></div>
-									<div class="text pl-3">
-										<h3>Creative Lessons</h3>
-										<p>Far far away, behind the word mountains, far from the countries Vokalia.</p>
-									</div>
-								</div>
-							</div>
-							<div class="col-lg-6">
-								<div class="services-2 d-flex">
-									<div class="icon mt-2 d-flex justify-content-center align-items-center"><span class="flaticon-kids"></span></div>
-									<div class="text pl-3">
-										<h3>Sports Facilities</h3>
-										<p>Far far away, behind the word mountains, far from the countries Vokalia.</p>
-									</div>
-								</div>
-							</div>
-						</div>
+						<p>We suggest the learning plan for you as per your requirements or please feel free to come up with your own learning plan.<br><br>
+							We provide you comfortable ambience while learning at our Center. The training methodologies are unique with audio video classes and interactive sessions, wherein the students will practice speaking and writing skills as well.<br> <br>
+							We also assist you in preparing for the Goethe Certificate exams of all levels (A1, A2, B1, B2, C1, C2) as we use the Goethe books as teaching material. Based on individuals more emphasis given, and practice will be done on Speaking, reading, listening and writing part of the German language.<br><br></p>
+						
+						<!-- <p>We understand the challenges faced by you in terms of study and universities assistance. Students facing complications while applying for universities or looking for suggestions in study choices will be assisted here. Information about end to end process like application, visa, travel will also be provided as per request.<br><br>
+								Are you going for Job seeker Visa and want to feel confident in Language before attending Interviews, we are here to help you. feel free to contact us and decide suitable learning plan.<br><br>
+								We also assist people with all sort of language requirements, who are travelling to Germany. Teaching methods will be diverse as per your needs. Learning plan will be shaped cordially. We are open for suggestions.<br><br>
+						</p> -->
+						<div class="text-center">
+							<button type="button" class="btn btn-info btn-lg text-center">Know More</button>
+						</div> 
+
+							
+						
 					</div>
 				</div>
 			</div>
@@ -250,9 +235,12 @@
     	<div class="container">
     		<div class="row justify-content-center mb-5 pb-2 d-flex">
     			<div class="col-md-6 align-items-stretch d-flex">
-    				<div class="img img-video d-flex align-items-center" style="background-image: url(images/about-2.jpg);">
+    				<div class="img img-video d-flex align-items-center"> 
     					<div class="video justify-content-center">
-								<a href="https://vimeo.com/45830194" class="icon-video popup-vimeo d-flex justify-content-center align-items-center">
+							<!-- style="background-image: url(images/about-2.jpg);" -->
+							<iframe width="560" height="315" src="https://www.youtube.com/embed/ped19lvvFac" class="popup-vimeo d-flex justify-content-center align-items-center" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen ></iframe>
+								<!-- <a href="https://youtu.be/ped19lvvFac" class="icon-video popup-vimeo d-flex justify-content-center align-items-center"> -->
+									<!-- frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen  -->
 									<span class="ion-ios-play"></span>
 		  					</a>
 							</div>
@@ -310,7 +298,7 @@
     </section>
 
 
-		<section class="ftco-section">
+		<!-- <section class="ftco-section">
 			<div class="container-fluid px-4">
 				<div class="row justify-content-center mb-5 pb-2">
           <div class="col-md-8 text-center heading-section ftco-animate">
@@ -373,7 +361,7 @@
 					</div>
 				</div>
 			</div>
-		</section>
+		</section> -->
 
 		<section class="ftco-section bg-light">
 			<div class="container-fluid px-4">
@@ -523,91 +511,13 @@
     	</div>
     </section>
 
-		<section class="ftco-section bg-light">
-			<div class="container">
-				<div class="row justify-content-center mb-5 pb-2">
-          <div class="col-md-8 text-center heading-section ftco-animate">
-            <h2 class="mb-4"><span>Recent</span> Blog</h2>
-            <p>Separated they live in. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country</p>
-          </div>
-        </div>
-				<div class="row">
-          <div class="col-md-6 col-lg-4 ftco-animate">
-            <div class="blog-entry">
-              <a href="blog-single.html" class="block-20 d-flex align-items-end" style="background-image: url('images/image_1.jpg');">
-								<div class="meta-date text-center p-2">
-                  <span class="day">26</span>
-                  <span class="mos">June</span>
-                  <span class="yr">2019</span>
-                </div>
-              </a>
-              <div class="text bg-white p-4">
-                <h3 class="heading"><a href="#">Skills To Develop Your Child Memory</a></h3>
-                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                <div class="d-flex align-items-center mt-4">
-	                <p class="mb-0"><a href="#" class="btn btn-primary">Read More <span class="ion-ios-arrow-round-forward"></span></a></p>
-	                <p class="ml-auto mb-0">
-	                	<a href="#" class="mr-2">Admin</a>
-	                	<a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a>
-	                </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4 ftco-animate">
-            <div class="blog-entry">
-              <a href="blog-single.html" class="block-20 d-flex align-items-end" style="background-image: url('images/image_2.jpg');">
-								<div class="meta-date text-center p-2">
-                  <span class="day">26</span>
-                  <span class="mos">June</span>
-                  <span class="yr">2019</span>
-                </div>
-              </a>
-              <div class="text bg-white p-4">
-                <h3 class="heading"><a href="#">Skills To Develop Your Child Memory</a></h3>
-                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                <div class="d-flex align-items-center mt-4">
-	                <p class="mb-0"><a href="#" class="btn btn-primary">Read More <span class="ion-ios-arrow-round-forward"></span></a></p>
-	                <p class="ml-auto mb-0">
-	                	<a href="#" class="mr-2">Admin</a>
-	                	<a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a>
-	                </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4 ftco-animate">
-            <div class="blog-entry">
-              <a href="blog-single.html" class="block-20 d-flex align-items-end" style="background-image: url('images/image_3.jpg');">
-								<div class="meta-date text-center p-2">
-                  <span class="day">26</span>
-                  <span class="mos">June</span>
-                  <span class="yr">2019</span>
-                </div>
-              </a>
-              <div class="text bg-white p-4">
-                <h3 class="heading"><a href="#">Skills To Develop Your Child Memory</a></h3>
-                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                <div class="d-flex align-items-center mt-4">
-	                <p class="mb-0"><a href="#" class="btn btn-primary">Read More <span class="ion-ios-arrow-round-forward"></span></a></p>
-	                <p class="ml-auto mb-0">
-	                	<a href="#" class="mr-2">Admin</a>
-	                	<a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a>
-	                </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-			</div>
-		</section>
-
+		
 		<section class="ftco-section testimony-section">
       <div class="container">
         <div class="row justify-content-center mb-5 pb-2">
           <div class="col-md-8 text-center heading-section ftco-animate">
             <h2 class="mb-4">Student Says About Us</h2>
-            <p>Separated they live in. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country</p>
+            <p>Student comment and feedback</p>
           </div>
         </div>
         <div class="row ftco-animate justify-content-center">
@@ -615,61 +525,61 @@
             <div class="carousel-testimony owl-carousel">
               <div class="item">
                 <div class="testimony-wrap d-flex">
-                  <div class="user-img mr-4" style="background-image: url(images/teacher-1.jpg)">
+                  <div class="user-img mr-4" >
                   </div>
                   <div class="text ml-2">
                   	<span class="quote d-flex align-items-center justify-content-center">
                       <i class="icon-quote-left"></i>
                     </span>
-                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    <p class="name">Racky Henderson</p>
-                    <span class="position">Father</span>
+                    <p>I'm really grateful to have learnt German from her.Very approachable and a brilliant teacher!</p>
+                    <p class="name">- Kartik P.</p>
+                    <!-- <span class="position">Father</span> -->
                   </div>
                 </div>
               </div>
               <div class="item">
                 <div class="testimony-wrap d-flex">
-                  <div class="user-img mr-4" style="background-image: url(images/teacher-2.jpg)">
+                  <div class="user-img mr-4" >
                   </div>
                   <div class="text ml-2">
                   	<span class="quote d-flex align-items-center justify-content-center">
                       <i class="icon-quote-left"></i>
                     </span>
-                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    <p class="name">Henry Dee</p>
-                    <span class="position">Mother</span>
+                    <p>A very good and helpful teacher. Extremely Proficient in German and very accommodative</p>
+                    <p class="name">- Akshay Krishnan</p>
+                    <!-- <span class="position">Mother</span> -->
                   </div>
                 </div>
               </div>
               <div class="item">
                 <div class="testimony-wrap d-flex">
-                  <div class="user-img mr-4" style="background-image: url(images/teacher-3.jpg)">
+                  <div class="user-img mr-4" >
                   </div>
                   <div class="text ml-2">
                   	<span class="quote d-flex align-items-center justify-content-center">
                       <i class="icon-quote-left"></i>
                     </span>
-                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    <p class="name">Mark Huff</p>
-                    <span class="position">Mother</span>
+                    <p>Sarala ma'am has been a very good mentor to me and I am extremely grateful to have learnt German Language from her.</p>
+                    <p class="name">- Shashank Swarna</p>
+                    <!-- <span class="position">Mother</span> -->
                   </div>
                 </div>
               </div>
               <div class="item">
                 <div class="testimony-wrap d-flex">
-                  <div class="user-img mr-4" style="background-image: url(images/teacher-4.jpg)">
+                  <div class="user-img mr-4" >
                   </div>
                   <div class="text ml-2">
                   	<span class="quote d-flex align-items-center justify-content-center">
                       <i class="icon-quote-left"></i>
                     </span>
-                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    <p class="name">Rodel Golez</p>
-                    <span class="position">Mother</span>
+                    <p>Wonderful experience. She made German Language very understandable.Best place to learn Deutsch.</p>
+                    <p class="name">- Shubham Nagar</p>
+                    <!-- <span class="position">Mother</span> -->
                   </div>
                 </div>
               </div>
-              <div class="item">
+              <!-- <div class="item">
                 <div class="testimony-wrap d-flex">
                   <div class="user-img mr-4" style="background-image: url(images/teacher-1.jpg)">
                   </div>
@@ -682,7 +592,7 @@
                     <span class="position">Mother</span>
                   </div>
                 </div>
-              </div>
+              </div> -->
             </div>
           </div>
         </div>
@@ -733,14 +643,38 @@
             	<h2 class="ftco-heading-2">Have a Questions?</h2>
             	<div class="block-23 mb-3">
 	              <ul>
-	                <li><span class="icon icon-map-marker"></span><span class="text">203 Fake St. Mountain View, San Francisco, California, USA</span></li>
-	                <li><a href="#"><span class="icon icon-phone"></span><span class="text">+2 392 3929 210</span></a></li>
+	                <li><span class="icon icon-map-marker"></span><span class="text">Spandana German Language Coaching Center (SGLCC)
+						# 44, 1ST Floor, 10th Main, 2nd Cross, NTI Layout, Vidyaranyapura
+						   Bengaluru, Karnataka - 560097
+	</span></li>
+	                <li><a href="#"><span class="icon icon-phone"></span><span class="text">+91 9980287918</span></a></li>
 	                <li><a href="#"><span class="icon icon-envelope"></span><span class="text">info@yourdomain.com</span></a></li>
 	              </ul>
 	            </div>
             </div>
-          </div>
-          <div class="col-md-6 col-lg-3">
+		  </div>
+
+		  <div class="col-md-6 col-lg-3">
+            <div class="ftco-footer-widget mb-5">
+            	<!-- <h2 class="ftco-heading-2">Have a Questions?</h2> -->
+            	<div class="block-23 mb-3">
+	              <!-- <ul>
+	                <li><span class="icon icon-map-marker"></span><span class="text">Spandana German Language Coaching Center (SGLCC)
+						# 44, 1ST Floor, 10th Main, 2nd Cross, NTI Layout, Vidyaranyapura
+						   Bengaluru, Karnataka - 560097
+	</span></li>
+	                <li><a href="#"><span class="icon icon-phone"></span><span class="text">+91 9980287918</span></a></li>
+	                <li><a href="#"><span class="icon icon-envelope"></span><span class="text">info@yourdomain.com</span></a></li>
+				  </ul> -->
+				  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.3379887485485!2d77.5560913146789!3d13.077752990786282!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae22a1c539a47b%3A0xcdab9eab66c48e7f!2s44%2C%2010th%20Main%20Rd%2C%20NTI%20Layout%2C%20Vidyaranyapura%2C%20Bengaluru%2C%20Karnataka%20560097!5e0!3m2!1sen!2sin!4v1583214932699!5m2!1sen!2sin" width="300" height="275" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+	            </div>
+            </div>
+		  </div>
+		  <!-- <div >
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.3379887485485!2d77.5560913146789!3d13.077752990786282!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae22a1c539a47b%3A0xcdab9eab66c48e7f!2s44%2C%2010th%20Main%20Rd%2C%20NTI%20Layout%2C%20Vidyaranyapura%2C%20Bengaluru%2C%20Karnataka%20560097!5e0!3m2!1sen!2sin!4v1583214932699!5m2!1sen!2sin" width="300" height="250" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+		  </div> -->
+		  
+          <!-- <div class="col-md-6 col-lg-3">
             <div class="ftco-footer-widget mb-5">
               <h2 class="ftco-heading-2">Recent Blog</h2>
               <div class="block-21 mb-4 d-flex">
@@ -766,17 +700,17 @@
                 </div>
               </div>
             </div>
-          </div>
+          </div> -->
           <div class="col-md-6 col-lg-3">
             <div class="ftco-footer-widget mb-5 ml-md-4">
-              <h2 class="ftco-heading-2">Links</h2>
-              <ul class="list-unstyled">
+              <!-- <h2 class="ftco-heading-2">Links</h2> -->
+              <!-- <ul class="list-unstyled">
                 <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Home</a></li>
                 <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>About</a></li>
                 <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Services</a></li>
                 <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Deparments</a></li>
                 <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Contact</a></li>
-              </ul>
+              </ul> -->
             </div>
           </div>
           <div class="col-md-6 col-lg-3">
@@ -803,7 +737,7 @@
           <div class="col-md-12 text-center">
 
             <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script> Spandana German Language Coaching Center. All rights reserved </a>
   <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
           </div>
         </div>
@@ -831,6 +765,18 @@
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
   <script src="js/google-map.js"></script>
   <script src="js/main.js"></script>
-    
-  </body>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  
+  <!-- <script type="text/javascript">
+	function googleTranslateElementInit() {
+	  new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+	}
+	</script>
+	
+	<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+ -->
+
+</body>
 </html>
