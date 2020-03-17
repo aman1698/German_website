@@ -59,9 +59,18 @@
 					    </div>
 					    <div class="col-md topper d-flex align-items-center justify-content-end">
 					    	<p class="mb-0">
-					    		<a href="#" class="btn py-2 px-3 btn-primary d-flex align-items-center justify-content-center">
+					    		<a id="menubar" href="/#scr" class="btn py-2 px-3 btn-primary js-scroll-trigger d-flex align-items-center justify-content-center">
 					    			<span>Enroll now</span>
-					    		</a>
+								</a>
+								<script>
+									$('#menubar').on('click',function(event){
+   var $anchor = $(this);
+   $('html, body').animate({
+     scrollTop: $($anchor.attr('a href')).offset().top + "px"
+   }, 1500);
+   event.preventDefault();
+});
+								</script>
 					    	</p>
 					    </div>
 				    </div>
