@@ -1,0 +1,15 @@
+HTTrack3.49-2+htsswf+htsjava launched on Fri, 20 Mar 2020 09:45:15 at https://trello.com/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://trello.com/ -O1 "C:\My Web Sites\trello" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+09:45:18	Warning: 	Note: due to https://trello.com remote robots.txt rules, links beginning with these path will be forbidden: /search?, /reset?, /confirm?, /confirmDelete?, /forgot$, /statement/, /boardinvited/, /organizationinvited/, /associate/, /not-supported.html, /static/, /1/ (see in the options to disable this)
+09:48:07	Error: 	"Bad Request" (400) at link https://www.googletagmanager.com/gtm.js?id= (from https://trello.com/GET)
+10:00:42	Warning: 	Retry after error -2 (Receive Time Out) at link https://d2k1ftgv7pobq7.cloudfront.net/meta/u/res/images/eef4581af2747730d88fb41f26796309/dev-marker.jpg (from https://trello.com/teams/engineering)
+10:06:26	Error: 	"Forbidden" (403) at link https://d2k1ftgv7pobq7.cloudfront.net/meta/u/res/integrations/js/slick/8ed8d24677bedb459c9ab58c5c0b3982/ajax-loader.gif (from https://d2k1ftgv7pobq7.cloudfront.net/meta/u/res/integrations/js/slick/8ed8d24677bedb459c9ab58c5c0b3982/slick-theme.css)
+
+HTTrack Website Copier/3.49-2 mirror complete in 21 minutes 19 seconds : 934 links scanned, 929 files written (89002353 bytes overall) [60336965 bytes received at 47175 bytes/sec], 42808926 bytes transferred using HTTP compression in 559 files, ratio 30%, 4.6 requests per connection
+(2 errors, 2 warnings, 0 messages)

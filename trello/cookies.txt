@@ -1,0 +1,12 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+trello.com	TRUE	/	FALSE	1999999999	lang	en
+trello.com	TRUE	/	FALSE	1999999999	mab	4317
+trello.com	TRUE	/	FALSE	1999999999	gdpr-cookie-consent	accepted
+trello.com	TRUE	/	FALSE	1999999999	dsc	c67f7fe611667c6e47ebcf72fe140b4d317f5e08b939fe01ccb533c5f6405acb
+.blog.trello.com	TRUE	/	FALSE	1999999999	__cfduid	db98a2359f046e1ba18c8b8f48acb93d11584698082
+.blog.trello.com	TRUE	/	FALSE	1999999999	__cfruid	2d0d25e4233cceef365476f9dae8c7cbed0be0e8-1584698082
+blog.trello.com	TRUE	/	FALSE	1999999999	SameSite	None
+.wufoo.com	TRUE	/	FALSE	1999999999	ep201	s3ddQDYYOF8yZ1shBgAM2X+Ghbs=
+.wufoo.com	TRUE	/	FALSE	1999999999	ep202	XVucuvVsRNrLH+ItryiCu8k1OII=
+
