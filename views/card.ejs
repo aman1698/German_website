@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
-
+h1{
+  color: white;
+  text-align: center;
+}
 img{
- 
   position: absolute;
   top: 0;
   left: 0;
@@ -48,11 +51,28 @@ img{
   backface-visibility: hidden;
 }
 
+.flip-card-front:after{
+  position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    content: '';
+    z-index: -1;
+    opacity: .8;
+    background: #0d1128;
+    background: #0d1128;
+    background: -moz-linear-gradient(45deg, #0d1128 0%, #fd6100 100%);
+    background: -webkit-gradient(left bottom, right top, color-stop(0%, #0d1128), color-stop(100%, #fd6100));
+    background: -webkit-linear-gradient(45deg, #0d1128 0%, #fd6100 100%);
+    background: -o-linear-gradient(45deg, #0d1128 0%, #fd6100 100%);
+    background: -ms-linear-gradient(45deg, #0d1128 0%, #fd6100 100%);
+    background: linear-gradient(45deg, #0d1128 0%, #fd6100 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0d1128', endColorstr='#fd6100', GradientType=1 );
+}
+
 .flip-card-front {
-  background: linear-gradient(45deg, #0d1128 0%, #fd6100 100%);
-  opacity: .8;
-  /*background-color: #bbb;*/
-  color: black;
+ color: white;
 }
 
 .flip-card-back {
@@ -61,30 +81,31 @@ img{
   transform: rotateY(180deg);
 }
 
-.card {
-    display:inline-block;
-    padding-left: 7%;
-    padding-top: 2em;
-}
-
 .card2 {
     display:inline-block;
-    padding-left: 18%;
+    padding-left: 9%;
+    padding-right: 9%;
     padding-top: 5em;
 }
 
+.card21 {
+  display:inline-block;
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-top: 5em;
+}
 </style>
 </head>
 <body>
 <!-- 
 <h1>Card Flip with Text</h1>
 <h3>Hover over the image below:</h3> -->
-<div class="row">
-<div class="card">
+<div class="row" style="padding-left: 4%;">
+<div class="card21">
 <div class="flip-card">
   <div class="flip-card-inner">
-    <div class="flip-card-front">
-      <img src="images/card.jpg" style="width:300px;height:300px;"><h1>German Language Courses</h1>
+    <div class="flip-card-front  justify-content-center">
+      <img src="images/card.jpg" style="width:300px;height:300px;" ><h1 class=" card-body">German Language Courses</h1>
     </div>
     <div class="flip-card-back"> 
       <p>A1, A2, B1, B2,  
@@ -96,7 +117,7 @@ img{
 </div>
 </div>
 
-<div class="card">
+<div class="card21">
     <div class="flip-card">
       <div class="flip-card-inner">
         <div class="flip-card-front">
@@ -110,7 +131,7 @@ img{
     </div>
 </div>
 
-    <div class="card">
+    <div class="card21">
         <div class="flip-card">
             <div class="flip-card-inner">
                 <div class="flip-card-front">
@@ -128,7 +149,7 @@ img{
     </div>
 </div>
 
-<div class="row">
+<div class="row" style="padding-left: 9%;">
     <div class="card2">
         <div class="flip-card">
           <div class="flip-card-inner">
