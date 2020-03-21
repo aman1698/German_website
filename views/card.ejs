@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+img{
+ 
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  content: '';
+  z-index: -1;
+  opacity: .8;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background: linear-gradient(45deg, #0d1128 0%, #fd6100 100%);
+  opacity: .8;
+  /*background-color: #bbb;*/
+  color: black;
+}
+
+.flip-card-back {
+  background-color: #2980b9;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.card {
+    display:inline-block;
+    padding-left: 7%;
+    padding-top: 2em;
+}
+
+.card2 {
+    display:inline-block;
+    padding-left: 18%;
+    padding-top: 5em;
+}
+
+</style>
+</head>
+<body>
+<!-- 
+<h1>Card Flip with Text</h1>
+<h3>Hover over the image below:</h3> -->
+<div class="row">
+<div class="card">
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="images/card.jpg" style="width:300px;height:300px;"><h1>German Language Courses</h1>
+    </div>
+    <div class="flip-card-back"> 
+      <p>A1, A2, B1, B2,  
+        C1, C2     
+       </p> 
+      <p>Weekend & Weekday Batches</p>
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="card">
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img src="images/learn.jpg" style="width:300px;height:300px;"><h1>Goethe Exams Preparations</h1>
+        </div>
+        <div class="flip-card-back"> 
+          <p>A1, A2, B1, B2, C1, C2</p> 
+          <p>Weekend & Weekday Batches</p>
+        </div>
+      </div>
+    </div>
+</div>
+
+    <div class="card">
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="images/spoken.jpg" style="width:300px;height:300px;"><h1>Study and University Assistance in Germany</h1>
+                </div>
+                <div class="flip-card-back"> 
+                    <p>Bachelors / Masters /
+                      Other  
+                         
+                     </p> 
+                    <p>Weekend & Weekday Batches</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="card2">
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src="images/interview.png" style="width:300px;height:300px;"><h1>Job Interview Preparations</h1> 
+            </div>
+            <div class="flip-card-back">
+              <p>Customized as 
+                per your 
+                requirements
+                </p> 
+              
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <div class="card2">
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="images/card5.jpg" style="width:300px;height:300px;"><h1>Spoken Language Classes</h1> 
+                </div>
+                <div class="flip-card-back">
+                  <p>Classroom or Telephonic
+                    as per your 
+                    request
+                    </p> 
+                  <!-- <p>We love that guy</p> -->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
