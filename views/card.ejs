@@ -3,6 +3,7 @@
 <head>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 
+  <link href="https://fonts.googleapis.com/css?family=Acme&display=swap" rel="stylesheet">
 <style>
 body {
   font-family: Arial, Helvetica, sans-serif;
@@ -64,7 +65,7 @@ img{
     background: #0d1128;
     background: -moz-linear-gradient(45deg, #0d1128 0%, #fd6100 100%);
     background: -webkit-gradient(left bottom, right top, color-stop(0%, #0d1128), color-stop(100%, #fd6100));
-    background: -webkit-linear-gradient(45deg, #0d1128 0%, #fd6100 100%);
+    background: -webkit-linear-gradient(45deg, #0d1128 0%,#fd6100 100%);
     background: -o-linear-gradient(45deg, #0d1128 0%, #fd6100 100%);
     background: -ms-linear-gradient(45deg, #0d1128 0%, #fd6100 100%);
     background: linear-gradient(45deg, #0d1128 0%, #fd6100 100%);
@@ -94,12 +95,21 @@ img{
   padding-right: 4%;
   padding-top: 5em;
 }
+
+.fo{
+  font-family: 'Acme', sans-serif;
+  font-weight: 300;
+  font-size: 300%;
+}
 </style>
 </head>
 <body>
-<!-- 
-<h1>Card Flip with Text</h1>
-<h3>Hover over the image below:</h3> -->
+  
+<!-- <h1>Courses Offered</h1> -->
+<!-- <h1>Courses Offered</h1> -->
+<br><br><br>
+<section>
+<h2 class="fo" style="text-align: center;"><span style="font-size: 150%;">Courses Offered</span></h2> <hr width="50%" style="border:1px solid rgb(107, 102, 102);">
 <div class="row text-center h-100" style="padding-left: 4%;">
 <!-- <div class="card21">
 <div class="flip-card">
@@ -117,99 +127,129 @@ img{
   </div>
 </div>
 </div> -->
-<div class="col-md-4 text-center">
+<div class="col-md-4  text-center">
   <div class="card21">
     <div class="flip-card">
       <div class="flip-card-inner">
         <div class="flip-card-front">
           <img src="images/card.jpg" style="width:300px;height:300px;" >
-            <h1 class="card-body text-center" style="padding-top: 80px;">German Language Courses</h1>
+            <h1 class="card-body text-center fo" style="padding-top: 60px;">German Language Courses</h1>
             </div>
-          </div>
+          
         <div class="flip-card-back"> 
-          <p>A1, A2, B1, B2,  
-            C1, C2     
-           </p> 
-          <p>Weekend & Weekday Batches</p>
+          <div class="fo">
+              <h3 style="padding-top: 80px;">Batches: A1, A2, B1, B2,  
+                  C1, C2     
+                </h3> 
+                <h3>Weekend & Weekday Batches</h3>
+
+          </div>
+          
         </div>
       </div>
     </div>
-    </div>
+  </div>
+  
+</div>
+  
 
 
 
-    <div class="col-md-4 text-center">
-<div class="card21">
+<div class="col-md-4  text-center">
+
+  <div class="card21">
     <div class="flip-card">
       <div class="flip-card-inner">
         <div class="flip-card-front">
           <img src="images/c1.jpg" style="width:300px;height:300px;">
-          <h1>Goethe Exams Preparations</h1>
+          <h1 class="fo" style="padding-top: 80px;">Goethe Exams Preparations</h1>
         </div>
         <div class="flip-card-back"> 
-          <p>A1, A2, B1, B2, C1, C2</p> 
-          <p>Weekend & Weekday Batches</p>
+          <div class="fo">
+              <h3  style="padding-top: 80px;">Batches: A1, A2, B1, B2, C1, C2</h3> 
+              <h3>Weekend & Weekday Batches</h3>
+          </div>
+
         </div>
       </div>
     </div>
 </div>
-    </div>
+</div>
+
+  
 
 
-    <div class="col-md-4 text-center">
-    <div class="card21">
-        <div class="flip-card">
-            <div class="flip-card-inner">
-                <div class="flip-card-front">
-                    <img src="images/c2.png" style="width:300px;height:300px;"><h1>Study and University Assistance in Germany</h1>
-                </div>
-                <div class="flip-card-back"> 
-                    <p>Bachelors / Masters /
+<div class="col-md-4 text-center">
+ 
+  <div class="card21">
+    <div class="flip-card">
+        <div class="flip-card-inner">
+            <div class="flip-card-front">
+                <img src="images/c2.png" style="width:300px;height:300px;"><h1 class="fo" style="padding-top: 45px;">Study and University Assistance in Germany</h1>
+            </div>
+            <div class="flip-card-back"> 
+              <div class="fo">
+                  <h3 style="padding-top: 80px;">Bachelors / Masters /
                       Other  
-                         
-                     </p> 
-                    <p>Weekend & Weekday Batches</p>
-                </div>
+                    </h3>
+                    <h3>Weekend & Weekday Batches</h3>
+              </div>
+                
             </div>
         </div>
     </div>
 </div>
+</div>
+    
+
 </div>
 <div class="row" style="padding-left: 9%;">
+  <div class="col-md-6 text-center">
     <div class="card2">
-        <div class="flip-card">
-          <div class="flip-card-inner">
-            <div class="flip-card-front">
-              <img src="images/c3.jpg" style="width:300px;height:300px;"><h1>Job Interview Preparations</h1> 
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="images/c3.jpg" style="width:300px;height:300px;"><h1 class="fo" style="padding-top: 80px;">Job Interview Preparations</h1> 
+          </div>
+          <div class="flip-card-back">
+            <div class="fo">
+                <h3 style="padding-top: 110px;">Customized as 
+                    per<br> your 
+                    requirements
+                  </h3> 
             </div>
-            <div class="flip-card-back">
-              <p>Customized as 
-                per your 
-                requirements
-                </p> 
-              
-            </div>
+            
+            
           </div>
         </div>
-    </div>
-
+      </div>
+  </div>
+  </div>
+    
+  <div class="col-md-6 text-center">
     <div class="card2">
-        <div class="flip-card">
-            <div class="flip-card-inner">
-                <div class="flip-card-front">
-                  <img src="images/c6.jpg" style="width:300px;height:300px;"><h1>Spoken Language Classes</h1> 
+      <div class="flip-card">
+          <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="images/c6.jpg" style="width:300px;height:300px;"><h1 class="fo" style="padding-top: 60px;">Spoken Language Classes</h1> 
+              </div>
+              <div class="flip-card-back">
+                <div class="fo">
+                    <h3 style="padding-top: 80px;">Classroom or Telephonic
+                        as per<br> your 
+                        request
+                      </h3> 
                 </div>
-                <div class="flip-card-back">
-                  <p>Classroom or Telephonic
-                    as per your 
-                    request
-                    </p> 
-                  <!-- <p>We love that guy</p> -->
-                </div>
-            </div>
-        </div>
-    </div>
+                
+                <!-- <p>We love that guy</p> -->
+              </div>
+          </div>
+      </div>
+  </div>
+  </div>
+    
 </div>
+</section>
 
 </body>
 </html>

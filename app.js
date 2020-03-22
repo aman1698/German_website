@@ -70,11 +70,13 @@ app.post("/",function(req,res){
     })  */
     
     //mail
+    res.redirect("/");
     const output=`
     <ul>
     <li>First Name:${name}</li><br>
     <li>Choice of Course:${choice}</li><br>
     <li>Phone: ${phone}</li><br>
+    <li>Email: ${email}</li><br>
     <li>Message:${message}</li><br>
     
     </ul>
@@ -91,14 +93,14 @@ app.post("/",function(req,res){
     var transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
-    user: 'gupta.aman1602@gmail.com',
-    pass: '2305aman9336559951'
+    user: 'sglcc.german@gmail.com',
+    pass: '18sglcc2020'
     }
     });
     const mailOptions = {
     // from: req.body.email, // sender address
-    from: '"SGJCC" <gupta.aman1602@gmail.com>',
-    to: "gupta.aman1602@gmail.com", // list of receivers
+    from: '"SGJCC" <sglcc.german@gmail.com>',
+    to: req.body.email+",sglcc.german@gmail.com", // list of receivers
     subject: "Course Choice", // Subject line
     html: output// plain text body
     };
@@ -155,6 +157,7 @@ app.post("/",function(req,res){
         })  */
         
         //mail
+        res.redirect("/")
         const output=`
         <ul>
         <li>Email: ${ema}</li><br>
@@ -173,14 +176,14 @@ app.post("/",function(req,res){
         var transporter = nodemailer.createTransport({
         service: 'gmail',
         auth: {
-        user: 'gupta.aman1602@gmail.com',
-        pass: '2305aman9336559951'
+        user: 'sglcc.german@gmail.com',
+        pass: '18sglcc2020'
         }
         });
         const mailOptions = {
         // from: req.body.email, // sender address
-        from: '"SGJCC" <gupta.aman1602@gmail.com>',
-        to: "gupta.aman1602@gmail.com", // list of receivers
+        from: '"SGJCC" <sglcc.german@gmail.com>',
+        to: "sglcc.german@gmail.com", 
         subject: "Subscribe Us", // Subject line
         html: output// plain text body
         };
@@ -237,6 +240,7 @@ app.post("/",function(req,res){
         })  */
         
         //mail
+        res.redirect("/");
         const output=`
         <ul>
         <li>Email: ${emai}</li><br>
@@ -255,14 +259,14 @@ app.post("/",function(req,res){
         var transporter = nodemailer.createTransport({
         service: 'gmail',
         auth: {
-        user: 'gupta.aman1602@gmail.com',
-        pass: '2305aman9336559951'
+        user: 'sglcc.german@gmail.com',
+        pass: '18sglcc2020'
         }
         });
         const mailOptions = {
         // from: req.body.email, // sender address
-        from: '"SGJCC" <gupta.aman1602@gmail.com>',
-        to: "gupta.aman1602@gmail.com", // list of receivers
+        from: '"SGJCC" <sglcc.german@gmail.com>',
+        to: "sglcc.german@gmail.com",
         subject: "Subscribe Us", // Subject line
         html: output// plain text body
         };
