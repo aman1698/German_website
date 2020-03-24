@@ -17,21 +17,38 @@ app.get("/",function(req,res){
     res.render("index");
 });
 
+app.get("/index_german",function(req,res){
+    res.render("index_german");
+});
+
+
 app.get("/contact",function(req,res){
     res.render("contact");
+});
+
+app.get("/contact_german",function(req,res){
+    res.render("contact_german");
 });
 
 app.get("/courses",function(req,res){
     res.render("courses");
 });
 
+app.get("/courses_german",function(req,res){
+    res.render("courses_german");
+});
+
 app.get("/about",function(req,res){
     res.render("about");
 });
 
-app.get("/blog",function(req,res){
-    res.render("blog");
+app.get("/about_german",function(req,res){
+    res.render("about_german");
 });
+
+// app.get("/blog",function(req,res){
+    // res.render("blog");
+// });
 
 // app.get("/blog-single",function(req,res){
 //     res.render("blog-single");
@@ -41,6 +58,9 @@ app.get("/teacher",function(req,res){
     res.render("teacher");
 });
 
+app.get("/teacher_german",function(req,res){
+    res.render("teacher_german");
+});
 
 app.post("/",function(req,res){
 

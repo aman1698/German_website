@@ -47,16 +47,22 @@
 	    margin:0,
 	    animateOut: 'fadeOut',
 	    animateIn: 'fadeIn',
-	    nav:false,
+		nav:true,
+		mouseDrag: true,
+		touchDrag: false,
 	    autoplayHoverPause: false,
 	    items: 1,
 	    navText : ["<span class='ion-md-arrow-back'></span>","<span class='ion-chevron-right'></span>"],
 	    responsive:{
 	      0:{
-	        items:1
+			items:1,
+			mouseDrag: false,
+			touchDrag: true,
 	      },
 	      600:{
-	        items:1
+			items:1,
+			mouseDrag: false,
+			touchDrag: true,
 	      },
 	      1000:{
 	        items:1
@@ -70,14 +76,20 @@
 			items:1,
 			margin: 30,
 			stagePadding: 0,
-			nav: false,
+			nav: true,
+			mouseDrag: true,
+			touchDrag: false,
 			navText: ['<span class="ion-ios-arrow-back">', '<span class="ion-ios-arrow-forward">'],
 			responsive:{
 				0:{
-					items: 1
+					items: 1,
+					mouseDrag: false,
+					touchDrag: true,
 				},
 				600:{
-					items: 1
+					items: 1,
+					mouseDrag: false,
+					touchDrag: true,
 				},
 				1000:{
 					items: 2

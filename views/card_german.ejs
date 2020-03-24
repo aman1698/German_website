@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+
+  <link href="https://fonts.googleapis.com/css?family=Acme&display=swap" rel="stylesheet">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+  color: white;
+  text-align: center;
+}
+img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  content: '';
+  z-index: -1;
+  opacity: .8;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front:after{
+  position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    content: '';
+    z-index: -1;
+    opacity: .4;
+    background: #0d1128;
+    background: #0d1128;
+    background: -moz-linear-gradient(45deg, #0d1128 0%, #fd6100 100%);
+    background: -webkit-gradient(left bottom, right top, color-stop(0%, #0d1128), color-stop(100%, #fd6100));
+    background: -webkit-linear-gradient(45deg, #0d1128 0%,#fd6100 100%);
+    background: -o-linear-gradient(45deg, #0d1128 0%, #fd6100 100%);
+    background: -ms-linear-gradient(45deg, #0d1128 0%, #fd6100 100%);
+    background: linear-gradient(45deg, #0d1128 0%, #fd6100 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0d1128', endColorstr='#fd6100', GradientType=1 );
+}
+
+.flip-card-front {
+ color: white;
+}
+
+.flip-card-back {
+  background-color:#FA9961;
+  color: black;
+  transform: rotateY(180deg);
+}
+
+.card2 {
+    display:inline-block;
+    padding-left: 9%;
+    padding-right: 9%;
+    padding-top: 5em;
+    padding-bottom: 5%;
+}
+
+.card21 {
+  display:inline-block;
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-top: 5em;
+}
+
+.fo{
+  font-family: 'Acme', sans-serif;
+  font-weight: 300;
+  font-size: 300%;
+}
+</style>
+</head>
+<body>
+  
+<!-- <h1>Courses Offered</h1> -->
+<!-- <h1>Courses Offered</h1> -->
+<br><br><br>
+<section style="background-color: #D3D3D3; padding-top: 5%;">
+<h2 class="fo" style="text-align: center;"><span style="font-size: 150%;">Kurse angeboten</span></h2> <hr width="50%" style="border:1px solid rgb(107, 102, 102);">
+<div class="row text-center h-100" style="padding-left: 4%;">
+<!-- <div class="card21">
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="images/card.jpg" style="width:300px;height:300px;" >
+        <h1 class="card-body">German Language Courses</h1>
+      </div>
+    <div class="flip-card-back"> 
+      <p>A1, A2, B1, B2,  
+        C1, C2     
+       </p> 
+      <p>Weekend & Weekday Batches</p>
+    </div>
+  </div>
+</div>
+</div> -->
+<div class="col-md-4  text-center">
+  <div class="card21">
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img src="images/card.jpg" style="width:300px;height:300px;" >
+            <h1 class="card-body text-center fo" style="padding-top: 90px;">Deutsch Sprachkurse </h1>
+            </div>
+          
+        <div class="flip-card-back"> 
+          <div class="fo">
+              <h3 style="padding-top: 80px;">Chargen: A1, A2, B1, B2,
+                                   C1, C2
+                </h3> 
+                <h3>Wochenend- und Wochentagsstapel</h3>
+
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  
+</div>
+  
+
+
+
+<div class="col-md-4  text-center">
+
+  <div class="card21">
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img src="images/c1.jpg" style="width:300px;height:300px;">
+          <h1 class="fo" style="padding-top: 80px;">Goethe Prüfung Vorbereitung</h1>
+        </div>
+        <div class="flip-card-back"> 
+          <div class="fo">
+              <h3  style="padding-top: 80px;">Chargen: A1, A2, B1, B2, C1, C2</h3> 
+              <h3>Wochenend- und Wochentagsstapel</h3>
+          </div>
+
+        </div>
+      </div>
+    </div>
+</div>
+</div>
+
+  
+
+
+<div class="col-md-4 text-center">
+ 
+  <div class="card21">
+    <div class="flip-card">
+        <div class="flip-card-inner">
+            <div class="flip-card-front">
+                <img src="images/c2.png" style="width:300px;height:300px;"><h1 class="fo" style="padding-top: 45px;">Studien- und Universität Hilfe im Deutschland</h1>
+            </div>
+            <div class="flip-card-back"> 
+              <div class="fo">
+                  <h3 style="padding-top: 80px;">Junggesellen / Meister /
+                                           Andere
+                    </h3>
+                    <h3>Wochenend- und Wochentagsstapel</h3>
+              </div>
+                
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+    
+
+</div>
+<div class="row" style="padding-left: 9%;">
+  <div class="col-md-6 text-center">
+    <div class="card2">
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="images/c3.jpg" style="width:300px;height:300px;"><h1 class="fo" style="padding-top: 60px;">Vorbereitungen auf das Bewerbungs- gespräch</h1> 
+          </div>
+          <div class="flip-card-back">
+            <div class="fo">
+                <h3 style="padding-top: 110px;">Angepaßt in Bezug auf <br>
+                  Ihre 
+                  Anforderungen
+                  </h3> 
+            </div>
+            
+            
+          </div>
+        </div>
+      </div>
+  </div>
+  </div>
+    
+  <div class="col-md-6 text-center">
+    <div class="card2">
+      <div class="flip-card">
+          <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="images/c6.jpg" style="width:300px;height:300px;"><h1 class="fo" style="padding-top: 60px;">Gesprochene Sprache
+Unterricht</h1> 
+              </div>
+              <div class="flip-card-back">
+                <div class="fo">
+                    <h3 style="padding-top: 80px;">im Klassenzimmer oder per Telefon
+                      gemäß <br>Ihrer 
+                      Anfrage
+                      </h3> 
+                </div>
+                
+                <!-- <p>We love that guy</p> -->
+              </div>
+          </div>
+      </div>
+  </div>
+  </div>
+    
+</div>
+</section>
+
+</body>
+</html>
