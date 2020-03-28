@@ -113,8 +113,8 @@ app.post("/",function(req,res){
     var transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
-    user: 'sglcc.german@gmail.com',
-    pass: '18sglcc2020'
+    user: '',
+    pass: ''
     }
     });
     const mailOptions = {
@@ -196,8 +196,8 @@ app.post("/",function(req,res){
         var transporter = nodemailer.createTransport({
         service: 'gmail',
         auth: {
-        user: 'sglcc.german@gmail.com',
-        pass: '18sglcc2020'
+        user: '',
+        pass: ''
         }
         });
         const mailOptions = {
@@ -279,8 +279,8 @@ app.post("/",function(req,res){
         var transporter = nodemailer.createTransport({
         service: 'gmail',
         auth: {
-        user: 'sglcc.german@gmail.com',
-        pass: '18sglcc2020'
+        user: '',
+        pass: ''
         }
         });
         const mailOptions = {
